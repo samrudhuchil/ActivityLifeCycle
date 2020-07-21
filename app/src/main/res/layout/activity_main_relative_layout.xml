@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imgTonyStark"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_margin="20dp"
+        android:src="@drawable/tony_stark_new"
+        android:layout_centerInParent="true"/>
+
+    <TextView
+        android:id="@+id/txtNameTonyStark"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="0dp"
+        android:padding="15dp"
+        android:text="Tont Stark"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_alignParentTop="true"/>
+
+    <TextView
+        android:id="@+id/txtEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="0dp"
+        android:padding="15dp"
+        android:text="tony@starkindustries.com"
+        android:textColor="#d500f9"
+        android:textSize="18sp"
+        android:textStyle="italic"
+        android:layout_below="@+id/txtNameTonyStark"/>
+
+    <TextView
+        android:id="@+id/txtContactNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:padding="15dp"
+        android:text="+91 7021406017"
+        android:layout_below="@+id/txtEmail"/>
+
+    <Button
+        android:id="@+id/btnClickHere"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="#2196f3"
+        android:text="Click Here"
+        android:textColor="#ffffff"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_alignParentBottom="true" />
+
+    <EditText
+        android:id="@+id/etMyName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:hint="Enter your name here"
+        android:inputType="textPassword"
+        android:layout_below="@+id/imgTonyStark"/>
+
+</RelativeLayout>
